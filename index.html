@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery a {
+            display: inline-block;
+            text-decoration: none;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bootcamp Task 2 My Image Gallery</h1>
+
+    <div class="gallery">
+        <a href="https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg" target="_blank">
+            <img src="images/pic1.jpg" alt="Beautiful Landscape 1">
+        </a>
+        <a href="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg" target="_blank">
+            <img src="images/pic2.jpg" alt="Beautiful Landscape 2">
+        </a>
+        <a href="https://png.pngtree.com/thumb_back/fh260/background/20240221/pngtree-colorful-flower-nature-background-image_15627341.jpg" target="_blank">
+            <img src="images/pic3.jpg" alt="Cityscape at Night">
+        </a>
+        <a href="https://static.vecteezy.com/system/resources/thumbnails/038/987/289/small/ai-generated-majestic-mountain-peak-reflects-tranquil-sunset-over-water-generated-by-ai-photo.jpg" target="_blank">
+            <img src="images/pic4.jpg" alt="Mountain View">
+        </a>
+        <a href="https://c4.wallpaperflare.com/wallpaper/815/737/246/abstract-1920x1200-nature-wallpaper-preview.jpg" target="_blank">
+            <img src="images/pic5.jpg" alt="Sunset Over Ocean">
+        </a>
+        <a href="https://e0.pxfuel.com/wallpapers/569/745/desktop-wallpaper-spring-holland-spring-flower-garden.jpg" target="_blank">
+            <img src="images/pic6.jpg" alt="Sunset Over Ocean">
+        </a>
+        <a href="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?cs=srgb&dl=pexels-pixabay-158063.jpg&fm=jpg" target="_blank"></a>
+            <img src="images/pic7.jpg" alt="Sunset Over Ocean">
+        </a>
+        <a href="https://images5.alphacoders.com/457/457745.jpg" target="_blank"></a>
+        <img src="images/pic8.jpg" alt="Sunset Over Ocean">
+    </a>
+        
+        
+    </div>
+
+</body>
+</html>
